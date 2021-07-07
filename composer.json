@@ -1,0 +1,30 @@
+{
+  "name": "bladellano/desafio-covid19",
+  "description": "Criando aplicação para o desafio",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Caio Dellano Nunes da Silva",
+      "email": "bladelano@gmail.com",
+      "role": "Developer",
+      "homepage": "https://www.dellanosiste.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source"
+    },
+    "files": [
+      "source/Config.php",
+      "source/Helpers.php"
+    ]
+  },
+  "require": {
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "coffeecode/router": "1.0.7",
+    "league/plates": "v4.0.0-alpha",
+    "matthiasmullie/minify": "1.3.61"
+  }
+}
